@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&family=Roboto:wght@300&display=swap');
+* {
+	--background-color: #2b3467;
+	--parent-block-color: #fcffe7;
+	--header-color: #ff9e9e;
+	--sub-header-color: #b43838;
+	--text-color: #952c3c;
+	--button-color: #6c82ff;
+}
+body {
+	background-color: var(--background-color);
+}
+/* 2B3467 FCFFE7 BAD7E9 EB455F  */
+#main-block {
+	background-color: var(--parent-block-color);
+	margin-top: 5%;
+	padding-bottom: 25%;
+	border-radius: 25px;
+}
+#title {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 4vw;
+	padding-top: 5%;
+	color: var(--header-color);
+}
+#title-underline {
+	margin-right: 5%;
+	margin-left: 5%;
+	border-color: var(--header-color);
+	border-width: 2px;
+}
+#subtitle {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 1vw;
+	color: var(--sub-header-color);
+	padding: 3% 5% 10% 5%;
+}
+
+#username,
+#profile-pic {
+	width: 9vw;
+}
+#social-media-links {
+	width: 20vw;
+}
+#add-more-content {
+	background-color: var(--button-color);
+	width: 25%;
+	font-size: 1vw;
+	font-weight: 900;
+}
